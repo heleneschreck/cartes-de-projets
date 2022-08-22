@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet javascript</title>
+</head>
+
+<body>
+    <h1>Mes projets</h1>
+    <div id="projet">
+        <div class="Javascript">
+            <div class="title">
+                <h2>Mon premier projet javascript</h2>
+            </div>
+            <div class="illustration">
+                <img src="javascript.jpg" width="95%" class="ImageJs" alt="illustrations">
+            </div>
+            <div class="description">
+                <p>
+                    ce projet Javascript est un site portfolio de tous mes projets sous formes de cartes
+                </p>
+            </div>
+        </div>
+        <div id="React">
+            <h2>Mon premier projet React</h2>
+            <div class="illustration">
+                <img src="react.jpg" width="95%" class="ImageReact" alt="illustrations">
+            </div>
+            <p>Ce projet React est un site de recettes connectée et communautaire</p>
+        </div>
+
+        <div id="Node">
+            <h2>Mon premier projet Node</h2>
+            <div class="illustration">
+                <img src="node.jpg" width="95%" class="ImageNode" alt="illustrations">
+            </div>
+            <p>Ce projet Node est un mini réseau social connecté à MangeDB</p>
+        </div>
+
+
+    </div>
+    <hr>
+    <div id="form">
+        <h2>Ajouter un projet à mon portefolio</h2>
+        <form id="new-project" onsubmit="handleSubmit(event)">
+            <fieldset>
+                <div id="title">
+                    <label for="titre">Titre du projet :</label>
+                    <input type="text" name="titre" id="titre"> <br>
+                </div>
+                <div id="picture">
+                    <label for="image">Lien vers une image en ligne :</label>
+                    <input type="text" name="image" id="image"> <br>
+                </div>
+                <div id="descriptions">
+                    <label for="description">Description du projet :</label><br>
+                    <textarea name="description" id="description">
+                </textarea>
+                </div>
+                <br>
+                <div id="button">
+                    <input type="submit" class="creer" value="Créer le projet">
+                </div>
+            </fieldset>
+        </form>
+
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url('./font/Arimo-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'Arimo-Italic';
+    src: url('./font/Arimo-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Arimo-Bold';
+    src: url('./font/Arimo-BoldItalic.ttf');
+}
+
+body {
+    font-family: 'Arimo-Bold';
+    background-color: silver;
+}
+
+#projet {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+img {
+    align-content: center;
+}
+
+.Javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 2px red;
+    width: 32%;
+    margin: 15px;
+}
+
+#React {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 2px red;
+    margin: 15px;
+    width: 30%;
+}
+
+#Node {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 2px red;
+    margin: 15px;
+    width: 30%;
+}
+
+#divers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 2px red;
+    width: 30%;
+    height: 350px;
+    margin: 15px;
+}
+
+h2,
+h1 {
+    text-align: center;
+    font-family: 'Arimo';
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.illustration {
+    text-align: center;
+}
+
+#text {
+    padding-bottom: 5px;
+}
+
+#form {
+    background-color: brown;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 30%;
+    border-radius: 30px;
+
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#picture {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+textarea {
+    width: 60%;
+    border-radius: 15px;
+    font-family: 'Arimo-Italic';
+
+}
+
+input {
+    width: 60%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Arimo-Italic';
+
+}
+
+#button {
+    width: 300px;
+    margin-left: 35%;
+    min-height: fit-content;
+
+}
+
+.creer {
+    background-color: tomato;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+input:focus {
+    outline: 2px solid maroon;
+}
+
+textarea:focus {
+    outline: 2px solid maroon;
+}
+
+@media all and (max-width: 1024px) {
+    #projet {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+  
+}
